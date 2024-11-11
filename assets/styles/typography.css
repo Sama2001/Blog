@@ -1,29 +1,63 @@
+
 h1 {
     font-size: 2.5rem;
+    font-family: 'Georgia', serif;
+    color: #5b3803;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
     margin-bottom: 0.5rem;
 }
-
 h2 {
-    font-size: 1.5rem;
-    color: #5b3803;
+    font-size: 1.75rem;
+    color: #8c5706;
+    font-family: 'Georgia', serif;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    margin-bottom: 0.5rem;
+
+}
+h3 {
+    font-size: 1rem;
+    color: #3a3938;
+    font-family: 'Georgia', serif;
+    
+    letter-spacing: 0.5px;
+    margin-bottom: 0.5rem;
+
+}
+.name {
+    font-size: 2rem; /* Change font size */
+    font-weight: bold; /* Make the text bold */
+    color: #3498db; /* Set text color */
+    text-align: center; /* Center-align the text */
+    letter-spacing: 1px; /* Add spacing between letters */
+    margin-top: 20px; /* Add space above */
+    margin-bottom: 10px; /* Add space below */
 }
 
 p {
+    color: #333;
+    font-size: 1rem;
+    line-height: 1.6;
+    font-family: Arial, sans-serif;
+}
+p.bold {
+    font-weight: bold;
+}
+p.italic {
+    font-style: italic;
+}
+p.underlined {
+    text-decoration: underline;
+}
+blockquote {
+    font-size: 1.1rem;
+    font-family: 'Times New Roman', Times, serif;
     color: #555;
+    border-left: 4px solid #b06d08;
+    padding-left: 1rem;
+    margin: 1rem 0;
 }
-
-a.button {
-    display: inline-block;
-    background-color: #b06d08;
-    color: white;
-    padding: 0.5rem 1rem;
-    border-radius: 5px;
-    text-align: center;
-    text-decoration: none;
-    margin: 1rem;
-    transition: background-color 0.3s ease;
-}
-
-a.button:hover {
-    background-color: #1f78b4;
+blockquote a {
+    color: #3498db;
+    text-decoration: underline;
 }
