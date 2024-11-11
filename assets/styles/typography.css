@@ -25,13 +25,13 @@ h3 {
 
 }
 .name {
-    font-size: 2rem; /* Change font size */
-    font-weight: bold; /* Make the text bold */
-    color: #3498db; /* Set text color */
-    text-align: center; /* Center-align the text */
-    letter-spacing: 1px; /* Add spacing between letters */
-    margin-top: 20px; /* Add space above */
-    margin-bottom: 10px; /* Add space below */
+    font-size: 2rem; 
+    font-weight: bold; 
+    color: #3498db; 
+    text-align: center;
+    letter-spacing: 1px; 
+    margin-top: 20px; 
+    margin-bottom: 10px;
 }
 
 p {
